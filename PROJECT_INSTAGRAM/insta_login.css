@@ -1,0 +1,238 @@
+
+:root{
+    --my_font:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 255, 255);
+    user-select: none;
+    overflow-y: hidden;
+}
+.web,.second-web {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(175, 173, 173);
+    padding: 20px;
+    width: 20vw;
+    margin-bottom: 10px;
+    font-family:var(--my_font);
+}
+.head{
+    font-family: 'lobster';
+    font-size: 40px;
+
+}
+.pass {
+    text-align: center;
+}
+.pass a{
+    text-decoration: none;
+    color: #646262;
+    font-family:var(--my_font);
+    font-size: 14px;
+    cursor: pointer;
+}
+.line hr {
+    display: inline-flex;
+    width: 30%;
+    position: relative;
+    top: 3px;
+}
+.line {
+    margin-top: 10px;
+    text-align: center;
+    font-family:var(--my_font);
+    font-size: 15px;
+    font-weight: 400;
+}
+.number-input{
+    padding: 5px;
+}
+.or{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: #949597;
+}
+input{
+    height: 30px;
+    width: 100%;
+    outline:none;
+    border: none;
+    padding: 4px;
+    border:1px solid rgb(165, 162, 162);
+    background-color: rgba(212, 201, 201, 0.2);
+}
+img{
+    user-select: none;
+}
+.log_btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    background-color: #0616ffc5;
+    border:0;
+    border-radius: 7px;
+    font-size: 11.5pt;
+    color: aliceblue;
+    font-weight: 600;
+    font-family:var(--my_font);
+    cursor: pointer;
+    text-align: center;
+}
+.pass{
+    margin-top: 10px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 2px;
+    width: 12px;
+    height: 12.5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.log{
+    cursor: pointer;
+    text-decoration: none;
+}
+input:focus{
+    border:1px solid rgb(116, 113, 113);
+}
+.FACEBOOK{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0042cf;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.second-web{
+    text-align: center;
+    font-size: 15px;
+}
+.second-web a{
+    text-decoration: none;
+    color: #1707ff;
+}
+.app{
+    display: flex;
+    border:1px solid black;
+    width: 50;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+    border: transparent;
+}
+.play{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    outline: 1px solid rgb(161, 161, 161);
+    width: 130px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right:  20px;
+}
+.get_it{
+    font-size: 10px;
+}
+.plays{
+    font-weight: 500;
+    font-family:var(--my_font);
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.play_image{
+    width: 40px;
+    position: absolute;
+}
+.micro{
+    border: 2px solid black;
+    width: 120px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    height: 34px;
+}
+.micro_image{
+   position: absolute;
+    top: 1%;
+    right: 70px;
+}
+.get_it_micro{
+    font-family:var(--my_font);
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+.micro_app{
+    font-family:var(--my_font);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing:.4px
+}
+.Microsoft_link,.playstore_link{
+    text-decoration: none;
+}
+.Get{
+    font-family:var(--my_font);
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+#eye_close_re{position: relative;}
+#eye_close_ab{
+    position: absolute;
+    right: 1%;
+    top:30%;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+   font-weight: 500;
+}
+#eye_close_ab:hover{
+    color: #646262;
+}
+.number-input{
+    position: relative;
+}
+.number-input label{
+    font-size: 12px;
+}
+.number-input label{
+    position: absolute;
+    left:0;
+    top:13%;
+    padding: 10px;
+    transition: .1s;
+}
+
+.number-input input:focus + label,.number-input input:valid + label{
+    font-size: 10px;
+    transform: translateY(-35%);
+}
+.number-input input{
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+@media  only screen and (max-width:1071px) {
+    .web,.second-web{
+        width: fit-content;
+    }
+     :placeholder-shown{
+        font-size: 12.5px;
+    } 
+}
+

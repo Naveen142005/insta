@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="insta_login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="icon" href="images.jpeg">
+    <!-- <link rel="icon" href="iconista.jpg"> -->
+</head>
+
+<body>
+    <div class="web">
+        <center>
+            <div class="head">
+            <img src="instagramimage.jpg" alt=""  width=200px;>           
+         </div>
+        </center>
+        <form id="formid">
+            <div class="full">
+                <div class="number-input">
+                    <input id="get_id" type="text"  required>
+                    <label for="get_id">Phone number,username or email </label>
+                </div>
+                <div class="number-input" id="eye_close_re">
+                    <input id="get_pwd" type="password"  required>
+                    <label for="get_pwd">password</label>
+                    <span ><img src="eye_close.png" alt="" width="20px" height="20px" id="eye_close_ab"></span>
+                </div>
+                
+                <div class="login-button">
+                    <button class="log_btn" onclick="log()">
+                        Log in
+                    </button>
+                </div>
+                <div class="line">
+                    <hr> <span class="or">
+                        OR
+                    </span>
+                    <hr>
+                </div>
+            
+                <div class="FACEBOOK">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a class="log" href="#" target="_blank">Log in with Facebook</a>
+                </div>
+                <div id="error" style="color: rgba(255, 0, 0, 0.699);font-size: 14px;text-align: center;"></div>
+                <div class="pass">
+                    <a href="#" target="_blank">Forgot Password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="second-web">
+            <span>
+                Don't have an account? 
+                <a href="" target="_blank">
+                    sign up
+                </a>
+            </span>
+    </div>
+    <span class="Get">Get the app.</span>
+    <div class="app">
+        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DDF827139-4722-4FB8-BD7A-A522FEFD676C%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" class="playstore_link" target="_blank">
+            <div class="play">
+                <img src="play.png" alt="" class="play_image">
+                <span class="get_it">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    GET IT ON 
+                </span>
+                <BR>
+                <span class="plays">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Google Play <br>
+                </span>
+            </div>
+        </a>
+        <a target="_blank" href="https://www.microsoft.com/store/productid/9NBLGGH5L9XT?ocid=pdpshare" class="Microsoft_link">
+        <div class="micro" >
+            <img src="microsoft.png" alt="" width="120px" class="micro_image">
+            <span class="get_it_micro">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Get it from 
+            </span> 
+            <br>
+            <span class="micro_app"> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Microsoft
+            </span>
+        </div>
+        </a>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
