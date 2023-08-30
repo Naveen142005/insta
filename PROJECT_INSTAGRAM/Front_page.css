@@ -391,6 +391,9 @@ p{
 .bottom_icons{
     display: none;
 }
+video{
+    cursur:pointer;
+}
 @media only screen and (max-width:1276px) {
     li{
         position: relative;
