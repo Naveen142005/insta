@@ -392,7 +392,7 @@ p{
     display: none;
 }
 video{
-    cursur:pointer;
+    cursor:pointer;
 }
 @media only screen and (max-width:1276px) {
     li{
