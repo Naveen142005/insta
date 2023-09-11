@@ -235,4 +235,13 @@ input:focus{
         font-size: 12.5px;
     } 
 }
-
+@media  only screen and (max-width:900px) {
+    .web,.second-web{
+        width: 30%;
+    }
+}
+@media  only screen and (max-width:600px) {
+    .web,.second-web{
+        width: 300px;
+    }
+}
